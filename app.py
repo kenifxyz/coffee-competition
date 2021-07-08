@@ -36,18 +36,18 @@ def getNeighbour(input, reverse=False): # takes in cbtl object and searches for 
     pair0 = "SBUX" if reverse else "CBTL"
     pair1 = "CBTL" if reverse else "SBUX"
     distance = calcDistance(input, compare[nearestIndex])
-    # print(pair0 + ": " + input[1] + " - " + pair1 + ": " + compare[nearestIndex][1])
-    # print("Distance: " + str(distance) + "km\n")
+    print(pair0 + ": " + input[1] + " - " + pair1 + ": " + compare[nearestIndex][1])
+    print("Distance: " + str(distance) + "km\n")
     return Pair(pair0, pair1, input[1], compare[nearestIndex][1], distance)
 
 
-
+getNeighbour([(1.3969115322405228, 103.74695872789806), "Yew Tee Point (New)"])
 print(str(len(c)) + " CBTL locations")
 print(str(len(s)) + " SBUX locations")
 
-pairList = []
-for store in c:
-    pair = getNeighbour(store)
-    pairList.append(pair)
+# pairList = []
+# for store in c:
+#     pair = getNeighbour(store)
+#     pairList.append(pair)
 
-createExcel(pairList)
+# createExcel(pairList)
