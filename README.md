@@ -1,5 +1,7 @@
 # coffee-competition
 
+__Edit: Starbucks Yew Tee has finally opened!__
+
 Living in Yew Tee, Starbucks has been super inaccessible. That's why when I saw that Coffee Bean & Tea Leaf (CBTL) was going to open at Yew Tee Point, I thought about the possibility that a Starbucks might open there soon.
 
 I discussed with a friend about how CBTL and Starbucks locations often open very near each other (or just beside each other in same cases) because of their fierce competition, but then wondered "to what extent?"
